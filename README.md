@@ -11,6 +11,18 @@ A modern, production-ready template for building full-stack React applications u
 - 🎉 TailwindCSS for styling
 - 📖 [React Router docs](https://reactrouter.com/)
 
+## Project Overview
+
+This project is a movie and series browsing web application built with React Router. It fetches data from the TMDB (The Movie Database) API to display movies and TV series. Users can browse popular movies and series, view details for each item, and search for titles using the search functionality implemented on the Movies and Series pages.
+
+### Key Features
+
+- Browse popular movies and TV series with detailed cards showing title, poster, and rating.
+- Search functionality on Movies and Series routes to find titles by keyword.
+- Server-side data loading using React Router loaders for SEO and performance.
+- Responsive UI styled with Tailwind CSS.
+- Routing setup for home, movies, series, and individual movie/series detail pages.
+
 ## Getting Started
 
 ### Installation
