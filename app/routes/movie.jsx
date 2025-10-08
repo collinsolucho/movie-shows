@@ -1,5 +1,5 @@
 export async function loader({ params }) {
-  console.log(params);
+
   let movieId = params.id;
 
   let res = await fetch(`https://api.themoviedb.org/3/movie/${movieId}`, {
@@ -10,7 +10,7 @@ export async function loader({ params }) {
     },
   });
   let movie = await res.json();
-  // console.log("movie", { movie });
+  
   return movie;
 }
 

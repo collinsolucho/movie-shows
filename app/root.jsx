@@ -63,24 +63,7 @@ export function Layout({ children }) {
               </li>
             </ul>
           </nav>
-          <Form
-            action="/"
-            method="get"
-            className="bg-amber-50 max-w-7xl rounded-full m-auto text-black text-lg my-6"
-          >
-            <label htmlFor="search" className="flex">
-              <input
-                type="search"
-                name="q"
-                id="search"
-                placeholder="search for title......"
-                className="w-full rounded-full p-2"
-              />
-              <button type="submit" className="bg-sky-700 p-3 rounded-2xl ">
-                enter
-              </button>
-            </label>
-          </Form>
+
           {children}
         </main>
 
@@ -112,11 +95,6 @@ export function Layout({ children }) {
                 <li>
                   <a href="/series" className="hover:text-white">
                     Series
-                  </a>
-                </li>
-                <li>
-                  <a href="/contact" className="hover:text-white">
-                    Contact
                   </a>
                 </li>
               </ul>
